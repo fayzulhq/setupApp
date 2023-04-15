@@ -9,8 +9,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Header link='/' tag="Create By Fayzulhq" />
+      <body className="pb-32">
+        <Header link='/' tag="Create By Fyz" title='Quick Setup' />
         {children}</body>
     </html>
   )

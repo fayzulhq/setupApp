@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <html lang="en">
       <body className="pb-32">
-        <Header link="/" tag="Back" />
+        <Header link="/" tag="Back" title='documentations'/>
         <div className="max-w-3xl mx-auto mt-32">{children}</div>
       </body>
     </html>

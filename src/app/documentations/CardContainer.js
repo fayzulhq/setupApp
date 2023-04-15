@@ -4,33 +4,33 @@ import CardItem from '../components/CardItem'
 const data = [
   {
     title : 'Install NPM',
-    link : '/set/1'
+    link : '/documentations/npm'
   },
   {
     title : 'Setup React JS',
-    link : '/set/2'
+    link : '/documentations/react'
   },
   {
     title : 'Setup React JS + Tailwind + CRA',
-    link : '/set/2'
+    link : '/documentations/react-tailwind-cra'
   },
   {
     title : 'Setup React JS + Tailwind + Vite',
-    link : '/set/3'
+    link : '/documentations/react-tailwind-vite'
   },
   {
     title : 'Setup Next.Js + Tailwind + CNA',
-    link : '/set/3'
+    link : '/documentations/next-tailwind-cna'
   },
   {
     title : 'Setup Next.Js + Tailwind + CRA',
-    link : '/set/4'
+    link : '/documentations/next-tailwind-cra'
   },
 ]
 
 const CardContainer = () => {
   return (
-    <div className='flex flex-col justify-center'>
+    <div className='flex flex-col justify-center px-10'>
       {data.map(({title,link})=>(
         <CardItem title={title} link={link} key={title}/>
       ))}
