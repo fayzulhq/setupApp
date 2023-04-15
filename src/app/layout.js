@@ -1,4 +1,6 @@
 import './globals.css'
+import CodeButton from './components/code'
+import Link from 'next/link'
 
 export const metadata = {
   title: 'Create Next App',
@@ -8,7 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Link><Code text='Documentation'/></Link>
+        
+        {children}</body>
     </html>
   )
 }

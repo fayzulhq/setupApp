@@ -21,7 +21,7 @@ export default function Home() {
       </h1>
 
      <IconSection />
-     <div className="bg-slate-500 mx-auto max-w-lg">
+     <div className="mx-auto mt-64">
         <Content/>
      </div>
     </main>
