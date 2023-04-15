@@ -33,7 +33,7 @@ const IconSection = () => {
     <div>
         <div className="mb-24 grid text-center lg:mb-0 grid-cols-6  mx-auto gap-x-10">
         {data.map(({image,className}) => (
-          <Image className={`hover:-translate-y-3 transition-all duration-300 ${className}`} src={image} width={64} height={64} alt={image}/>
+          <Image key={image} className={`hover:-translate-y-3 transition-all duration-300 ${className}`} src={image} width={64} height={64} alt={image}/>
         ))}
       </div>
         

@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header link='/' tag="Create By Fayzulhq"/>
+        <Header link='/' tag="Create By Fayzulhq" />
         {children}</body>
     </html>
   )
