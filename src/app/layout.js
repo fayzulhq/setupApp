@@ -1,5 +1,4 @@
 import './globals.css'
-import CodeButton from './components/code'
 import Header from './components/header'
 
 export const metadata = {
@@ -11,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header link='/' tag='Create By Fayzulhq'/>
+        <Header link='/' tag="Create By Fayzulhq"/>
         {children}</body>
     </html>
   )

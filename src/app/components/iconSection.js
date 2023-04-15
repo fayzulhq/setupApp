@@ -1,18 +1,40 @@
 import React from 'react'
-import {FaReact} from 'react-icons/fa'
 import Image from 'next/image'
 
+const data = [
+  {
+    image : '/npm.svg',
+    className : ''
+  },
+  {
+    image : '/react.svg',
+    className : ''
+  },
+  {
+    image : '/tailwind.svg',
+    className : ''
+  },
+  {
+    image : '/vite.svg',
+    className : ''
+  },
+  {
+    image : '/next.svg',
+    className : 'bg-white rounded-full border-2'
+  },
+  {
+    image : '/ts.svg',
+    className : ''
+  },
+]
 
 const IconSection = () => {
   return (
     <div>
-        <div className="mb-24 grid text-center lg:mb-0 grid-cols-5  mx-auto gap-x-10">
-        <Image src="/react.svg" width={64} height={64} alt="react"/>
-        <Image src="/tailwind.svg" width={64} height={64} alt="react"/>
-        <Image src="/vite.svg" width={64} height={64} alt="react"/>
-        <Image src="/next.svg" width={64} height={64} alt="react" className='bg-white rounded-full border-2'/>
-        <Image src="/ts.svg" width={64} height={64} alt="react"/>
-        
+        <div className="mb-24 grid text-center lg:mb-0 grid-cols-6  mx-auto gap-x-10">
+        {data.map(({image,className}) => (
+          <Image className={`hover:-translate-y-3 transition-all duration-300 ${className}`} src={image} width={64} height={64} alt={image}/>
+        ))}
       </div>
         
     </div>

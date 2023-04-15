@@ -4,30 +4,34 @@ const inter = Inter({ subsets: ["latin"] });
 
 const data = [
   {
+    title : "NPM",
+    description : " It is a software package manager that is used primarily for installing, managing, and sharing packages or libraries written in JavaScript for use in Node.js projects. "
+  },
+  {
     title: "React JS",
     description:
-      "ReactJS adalah sebuah libraly JavaScript untuk UI yang interaktif dan dinamis di dalam aplikasi web menggunakan konsep komponen.",
+    "ReactJS is like a magical toolbox for creating interactive and dynamic user interfaces in web applications using the power of components. It's like building with LEGO blocks to create web experiences that will blow your users' minds!",
   },
   {
     title: "TailwindCSS",
     description:
-      "Tailwind CSS adalah framework CSS yang digunakan untuk merancang antarmuka pengguna (UI) pada aplikasi web dengan menggunakan kelas utilitas khusus styling komponen",
+      "Tailwind CSS is like a styling superhero for web UI! It's a CSS framework that lets you design user interfaces for web apps using special utility classes, making your styling superpowers go through the roof!",
   },
   {
     title: "Next JS",
     description:
-      "Next.js adalah framework React JS sisi server untuk membangun aplikasi web yang cepat, efisien, dan SEO-friendly dengan fitur-fitur seperti prerendering, routing dinamis, serta dukungan untuk pengembangan frontend dan backend dalam satu tempat.",
+      "Next.js is React's speedy sidekick for building fast, SEO-friendly web apps with prerendering, dynamic routing, and combined frontend/backend development superpowers!",
   },
   {
     title: "Vite",
     description:
-      "Vite adalah sebuah alat pengembangan web yang cepat dan ringan (bundler) untuk membangun aplikasi web modern. Ia menawarkan pengalaman pengembangan yang cepat dengan waktu pembuatan (build) yang efisien",
+      "Vite is like a speedy and lightweight web development tool (bundler) for building modern web applications. It offers a turbocharged development experience with lightning-fast build times that'll make your web development dreams come true!",
   },
   {
     title: "TypeScript",
     description:
-      "TypeScript adalah bahasa pemrograman yang merupakan super set dari JavaScript, yang menambahkan fitur-fitur tipe statis dan dukungan untuk pengembangan berbasis objek yang ditingkatkan.",
-  },
+      "TypeScript is like JavaScript on steroids! It's a programming language that adds some superpowers like static typing and enhanced support for object-oriented development to good ol' JavaScript.",
+  }
 ];
 
 const Learn = () => {

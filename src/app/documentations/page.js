@@ -4,7 +4,7 @@ import React from 'react'
 
 const Documentations = () => {
   return (
-    <div>Documentations</div>
+    <div className='mx-auto'>Documentations</div>
   )
 }
 

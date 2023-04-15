@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-start items-center p-24">
 
       <h1 className="xl:text-[72px] text-4xl font-semibold my-24 ">
-        SetUp My Work!!
+        Quick SetUp !!
       </h1>
 
      <IconSection />
