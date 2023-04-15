@@ -36,7 +36,7 @@ const Learn = () => {
     <h1 className="text-3xl leading-6 mb-12 font-semibold">What are they ?</h1>
       <div className="grid md:grid-cols-2 grid-flow-row gap-10">
         {data.map(({ title, description }) => (
-          <div className="border border-white px-8 py-4 rounded-lg  hover:bg-white/10">
+          <div key={title} className="border border-white px-8 py-4 rounded-lg  hover:bg-white/10">
             <h2 className={`${inter.className} mb-3 text-xl md:text-2xl font-semibold`}>
               {title}{" "}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
