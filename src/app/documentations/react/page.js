@@ -6,7 +6,7 @@ import Image from 'next/image'
 const SetupNpm = () => {
   return (
     <div className='px-10'>
-      <TitleSection text='React'/>
+      <TitleSection text='ReactJs'/>
       <ParagraphSection text="ReactJS is a simple, feature rich, component based JavaScript UI library. It can be used to develop small applications as well as big, complex applications. ReactJS provides minimal and solid feature set to kick-start a web application. React community compliments React library by providing large set of ready-made components to develop web application in a record time. React community also provides advanced concept like state management, routing, etc., on top of the React library." className='py-5'/>
 
       <ParagraphSection text='The salient features of React library are as follows −'/>
@@ -58,6 +58,13 @@ const SetupNpm = () => {
 
       <ParagraphSection text='Now your react project is done, You can check your project folder and start coding in your code editor!' className='mt-5'/>
       <Image src='/folderreact.png' className='my-5' layout='responsive' width={100} height={100} alt='cra-install'/>
+
+      <TitleSection text='Step-3 : Start your folder' className='text-xl mt-10 mb-3'/>
+      <ParagraphSection text='To run the ReactJS application you just installed, enter the following command in the terminal:'/>
+      <Image src='/react-cd.png' className='my-5' layout='responsive' width={100} height={100} alt='cra-install'/>
+      <ParagraphSection text='Check your local or Network url that given in terminal '/>
+      <Image src='/react-start.png' className='my-5' layout='responsive' width={100} height={100} alt='cra-install'/>
+
     </div>
   )
 }
