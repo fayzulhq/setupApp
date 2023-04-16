@@ -32,7 +32,7 @@ const SetupNpm = () => {
       <TitleSection text='Step-1 : Download and Install Node.js' className='text-xl mt-5 mb-3'/>
       
       <p className='text-md leading-6 text-slate-400'>You can check how to install NodeJs and npm in 
-      <a href='http://localhost:3001/documentations/npm' target="_blank" className='text-white text-md'>our</a> page.
+      <a href='https://docs.npmjs.com/cli/v8/commands/npm-install' target="_blank" className='text-white text-md'>our</a> page.
       </p>
 
       <Image className='my-10' src='/versionnpm.png' layout='responsive' width={100} height={100} alt='npm-install'/>

@@ -1,5 +1,6 @@
 import './globals.css'
 import Header from './components/header'
+import { ContactUs } from './components/Contact'
 
 export const metadata = {
   title: 'Quick Setup',
@@ -8,9 +9,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="pb-32">
+      <body className="">
         <Header link='/' tag="Create By Fyz" />
-        {children}</body>
+        {children}
+        
+        <ContactUs/>
+        </body>
     </html>
   )
 }
