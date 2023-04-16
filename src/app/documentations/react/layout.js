@@ -2,6 +2,10 @@ import React from 'react'
 import Header from '@/app/components/header'
 import './../../globals.css'
 
+export const metadata = {
+  title: 'React JS Setup',
+}
+
 const Layout = ({children}) => {
   return (
     <html lang="en">
