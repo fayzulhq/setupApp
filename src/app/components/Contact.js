@@ -3,21 +3,43 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import TitleSection from './TitleSection';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+// https://fkhadra.github.io/react-toastify/introduction/
 
 export const ContactUs = () => {
-  const form = useRef();
+  const form = useRef(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    form.current.value = null // reset field after send
 
     emailjs.sendForm('service_ckud40u', 'template_2t0l3qf', form.current, '1Lm-aHT2SrLonvw47')
       .then((result) => {
-          form.current.value = '' // reset field after send
           console.log(result.text);
-          console.log("Message sent")
-
+          toast.success('Your Message sent!', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+            
       }, (error) => {
-          console.log(error.text);
+        toast.error("Message didn't sent!", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
       });
   };
 
