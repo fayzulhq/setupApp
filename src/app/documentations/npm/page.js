@@ -3,7 +3,6 @@ import TitleSection from '@/app/components/TitleSection'
 import ParagraphSection from '@/app/components/ParagraphSection'
 import Image from 'next/image'
 
-// text-sm leading-6 text-slate-500
 const SetupNpm = () => {
   return (
     <div className='px-10'>
@@ -59,7 +58,6 @@ const SetupNpm = () => {
       <Image className='my-10' src='/versionnpm.png' layout='responsive' width={100} height={100} alt='npm-install'/>
       <ParagraphSection text='In my case, the version of node.js is v18.12.1 and npm is 8.19.2.'/>
     </div>
-
   )
 }
 
