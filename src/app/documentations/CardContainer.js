@@ -19,12 +19,8 @@ const data = [
     link : '/documentations/react-tailwind-vite'
   },
   {
-    title : 'Setup Next.Js + Tailwind + CNA',
-    link : '/documentations/next-tailwind-cna'
-  },
-  {
-    title : 'Setup Next.Js + Tailwind + CRA',
-    link : '/documentations/next-tailwind-cra'
+    title : 'Setup Next.Js 13 + Tailwind',
+    link : '/documentations/next-tailwind'
   },
 ]
 
