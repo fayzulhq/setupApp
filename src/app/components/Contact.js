@@ -44,15 +44,15 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='bg-slate-900 mx-auto text-center py-12'>
-        <TitleSection text='Adivices and Critics' className='my-5'/>
+    <div className='bg-gray-900 mx-auto text-center py-12'>
+        <TitleSection text='Suggestion and Critics' className='my-5'/>
     <form ref={form} onSubmit={sendEmail}>
 
     <div className='lg:flex flex-col justify-center items-center text-left'>
         
       <input type="email" name="user_email" className=" text-sm rounded-lg max-w-[400px] mx-auto my-5 w-full p-2 block bg-gray-700  placeholder-gray-400 focus:outline-none text-white " placeholder="someone@gmail.com" required />
 
-      <textarea name="message" className="mx-auto text-sm rounded-lg max-w-[400px] w-full p-2 my-5 bg-gray-700 block placeholder-gray-400 focus:outline-none text-white " placeholder="Any advices and critics" required  />
+      <textarea name="message" className="mx-auto text-sm rounded-lg max-w-[400px] w-full p-2 my-5 bg-gray-700 block placeholder-gray-400 focus:outline-none text-white " placeholder="Any suggestion and critics" required  />
     </div>
 
       <button type='submit' className='bg-blue-600 hover:bg-blue-800 rounded-md mt-5 px-6 py-2'>Send</button>

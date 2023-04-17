@@ -1,0 +1,11 @@
+
+-daisyUI
+-MaterialUI
+-animateCSS
+-Tailwind framework lainnya
+
+-lodash
+-prismJs
+-react-icon
+-emailjs
+-react-table

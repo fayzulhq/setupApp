@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = (props) => {
   return (
     <div>
-      <div className="flex justify-between mt-10 max-w-4xl mx-auto">
+      <div className="flex justify-between p-3 md:p-5 max-w-4xl mx-auto items-center">
         <Link href={props.link}>
           <CodeButton text={props.tag} />
         </Link>
