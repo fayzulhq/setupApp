@@ -1,4 +1,3 @@
-import React from 'react'
 import CardItem from '../components/CardItem'
 
 const data = [

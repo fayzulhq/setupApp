@@ -1,7 +1,5 @@
 import "./../globals.css";
 import Header from "./../components/header";
-import { ContactUs } from "../components/Contact";
-
 
 export const metadata = {
   title: 'Tech',

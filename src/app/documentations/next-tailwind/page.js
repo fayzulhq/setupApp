@@ -1,4 +1,3 @@
-import React from 'react'
 import TitleSection from '@/app/components/TitleSection'
 import ParagraphSection from '@/app/components/ParagraphSection'
 import Image from 'next/image'

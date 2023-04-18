@@ -12,7 +12,6 @@ export default function RootLayout({ children }) {
       <body className="">
         <Header link='/' tag="Create By Fyz" />
         {children}
-        
         <ContactUs/>
         </body>
     </html>

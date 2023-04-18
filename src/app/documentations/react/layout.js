@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '@/app/components/header'
 import './../../globals.css'
 
@@ -9,7 +8,7 @@ export const metadata = {
 const Layout = ({children}) => {
   return (
     <html lang="en">
-      <body className='pb-32'>
+      <body className=''>
         <Header link="/documentations" tag="Back" title='Set' />
         <div className="max-w-3xl mx-auto mt-32">{children}</div>
       </body>
