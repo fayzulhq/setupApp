@@ -1,3 +1,4 @@
+import { ContactUs } from '@/app/components/Contact'
 import Header from '@/app/components/header'
 import './../../globals.css'
 
@@ -11,6 +12,7 @@ const Layout = ({children}) => {
       <body className=''>
         <Header link="/documentations" tag="Back" title='Set' />
         <div className="max-w-3xl mx-auto mt-32">{children}</div>
+        <ContactUs/>
       </body>
     </html>
   )

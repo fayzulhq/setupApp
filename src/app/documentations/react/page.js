@@ -34,35 +34,35 @@ const SetupNpm = () => {
       <a href='https://docs.npmjs.com/cli/v8/commands/npm-install' target="_blank" className='text-white text-md'>our</a> page.
       </p>
 
-      <Image className='my-10' src='/versionnpm.png' layout='responsive' width={100} height={100} alt='npm-install'/>
+      <Image className='my-10' src='/versionnpm.png' width={100} height={100} alt='npm-install'/>
 
       <TitleSection text='Step-2 : Open CLI or terminal' className='text-xl mt-10 mb-3'/>
       <ParagraphSection text="Once Node.js is installed, open your favorite terminal. Don't worry, the terminal is like a magic door to access the world of web development! Now, you can enter this command to install ReactJS:" className='mb-5'/>
 
       <ParagraphSection text='Open a command prompt and go to your workspace.'/>
       <code className='bg-slate-400 ml-4 px-6 py-1 my-7 rounded-md inline-block'>cd /go/to/your/workspace</code>
-      <Image src='/go-file.png' layout='responsive' width={100} height={100} className='my-10'/>
+      <Image src='/go-file.png' width={100} height={100} className='my-10'/>
       <ParagraphSection text='In my case by default my machine is in Ikbal (my username), because i want to make a React project in my specific directory."ject" is my folder that containing all my project, so I point my terminal to the folder where I will create the React project'/>
       <a href='https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/' target="_blank" className='text-white text-md'>Check this page for basic CLI and terminal</a>
 
       <ParagraphSection text='To create a project called my-app, run this command:' className='my-4'/>
-      <Image src='/mycra.png' className='mb-10' layout='responsive' width={100} height={100} alt='cra-install'/>
+      <Image src='/mycra.png' className='mb-10' width={100} height={100} alt='cra-install'/>
 
       <TitleSection text='Step-3 : Wait for Welcoming' className='text-xl mt-10 mb-3'/>
       <ParagraphSection text='Once you enter the above command, you will see magic happen in your terminal! ReactJS will start downloading and installing on your computer. Be patient and let the magic work. You can use this time to drink your favorite coffee or tea while waiting.' className='my-5'/>
 
-      <Image src='/happyhacking.png' className='mb-5' layout='responsive' width={100} height={100} alt='cra-install'/>
+      <Image src='/happyhacking.png' className='mb-5' width={100} height={100} alt='cra-install'/>
 
       <ParagraphSection text="Happy! You now have a ReactJS application ready to use. You can see a new folder with the name of the application you selected earlier. Open that folder and you will find lots of scary looking files and folders, but don't worry, they are your new friends!"/>
 
       <ParagraphSection text='Now your react project is done, You can check your project folder and start coding in your code editor!' className='mt-5'/>
-      <Image src='/folderreact.png' className='my-5' layout='responsive' width={100} height={100} alt='cra-install'/>
+      <Image src='/folderreact.png' className='my-5' width={100} height={100} alt='cra-install'/>
 
       <TitleSection text='Step-3 : Start your folder' className='text-xl mt-10 mb-3'/>
       <ParagraphSection text='To run the ReactJS application you just installed, enter the following command in the terminal:'/>
-      <Image src='/react-cd.png' className='my-5' layout='responsive' width={100} height={100} alt='cra-install'/>
+      <Image src='/react-cd.png' className='my-5' width={100} height={100} alt='cra-install'/>
       <ParagraphSection text='Check your local or Network url that given in terminal '/>
-      <Image src='/react-start.png' className='my-5' layout='responsive' width={100} height={100} alt='cra-install'/>
+      <Image src='/react-start.png' className='my-5' width={100} height={100} alt='cra-install'/>
 
     </div>
   )

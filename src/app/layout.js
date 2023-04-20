@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="">
+      <body>
         <Header link='/' tag="Create By Fyz" />
         {children}
         <ContactUs/>
