@@ -1,17 +1,17 @@
-import CodeButton from "./code";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 
-
-const style = 'text-sm flex w-full justify-centera-2 lg:py-3 backdrop-blur-2xl lg:static lg:w-auto rounded-lg lg:px-6 hover:bg-gray-900 font-mono font-bold underline underline-offset-[15px] hover:no-underline duration-300'
+const style = 'text-sm flex w-full justify-center py-3 backdrop-blur-2xl lg:static lg:w-auto rounded-lg px-6 hover:bg-gray-800 font-mono font-bold underline underline-offset-[15px] hover:no-underline duration-300'
 
 const Header = (props) => {
+  
   return (
-    <div>
+    <div className="m-4">
       <div className="flex justify-between p-3 md:p-5 max-w-4xl mx-auto items-center">
-        <Link href={props.link} className={style}>
-          {props.tag}
+        <Link href='/' className={`${style} hidden md:flex`}>
+          Quick
         </Link>
-        <div className="flex gap-x-7">
+        <div className="flex justify-center mx-auto md:mx-0 gap-x-7">
           <Link href="/documentations" className={style}>
             Documentations
           </Link>
@@ -24,4 +24,6 @@ const Header = (props) => {
   );
 };
 
-export default Header;
+// export default Header;
+
+export default dynamic (()=> Promise.resolve(Header),{ssr:false})

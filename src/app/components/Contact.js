@@ -6,7 +6,7 @@ import TitleSection from './TitleSection';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-// https://fkhadra.github.io/react-toastify/introduction/
+//https://fkhadra.github.io/react-toastify/introduction/
 
 export const ContactUs = () => {
   const form = useRef(null);
@@ -44,7 +44,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='bg-gray-900 mx-auto text-center py-12'>
+    <div className={`bg-gray-900 mx-auto text-center py-12`}>
         <TitleSection text='Suggestion and Critics' className='my-5'/>
     <form ref={form} onSubmit={sendEmail}>
 

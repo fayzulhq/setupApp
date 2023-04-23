@@ -10,9 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header link='/' tag="Create By Fyz" />
+        <Header link='/' tag="Created By Fyz" />
         {children}
-        <ContactUs/>
+        <ContactUs />
         </body>
     </html>
   )
