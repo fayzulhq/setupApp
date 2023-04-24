@@ -8,12 +8,9 @@ export const metadata = {
 
 const Layout = ({children}) => {
   return (
-    <html lang="en">
-      <body className=''>
-        <Header link="/documentations" tag="Back" />
-        <div className="max-w-3xl mx-auto mt-32">{children}</div>
-      </body>
-    </html>
+  <>
+    <div className="max-w-3xl mx-auto mt-32">{children}</div>
+  </>
   )
 }
 
