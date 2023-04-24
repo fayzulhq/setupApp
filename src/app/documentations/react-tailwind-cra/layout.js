@@ -10,9 +10,8 @@ const Layout = ({children}) => {
   return (
     <html lang="en">
       <body className=''>
-        <Header link="/documentations" tag="Back" title='Set' />
+        <Header link="/documentations" tag="Back" />
         <div className="max-w-3xl mx-auto mt-32">{children}</div>
-        <ContactUs/>
       </body>
     </html>
   )

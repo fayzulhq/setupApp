@@ -36,13 +36,13 @@ const SetupNpm = () => {
       <a href='https://nodejs.org/' target="_blank" className='text-white text-md'> official Node.js</a> page.
       </p>
 
-      <Image className='my-10 rounded-md border border-slate-800' src='/versionnpm.png'  width={100} height={100} alt='npm-install'/>
+      <Image className='my-10 rounded-md border border-slate-800' src='/versionnpm.png'  width={100} height={100} alt='npm-install' layout='responsive'/>
 
       {/* 2 */}
       <TitleSection text='Step-2 : Create a New React Project' className='text-xl mt-10 mb-3'/>
       <ParagraphSection text="Open your terminal and run the following command to create a new React project using Create React App:"  className='mb-5'/>
 
-      <Image src='/rt1.png'  width={100} height={100} className='my-10 rounded-md border border-slate-800'/>
+      <Image src='/rt1.png' width={100} height={100} className='my-10 rounded-md border border-slate-800' layout='responsive' alt='test'/>
 
       <ParagraphSection text='This will create a new React project in a folder called "my-react-app". You can replace "my-react-app" with the name of your project.' className='mb-5'/>
 
@@ -50,32 +50,32 @@ const SetupNpm = () => {
       <TitleSection text="Step 3: Install Vite as a Development Dependency" className='text-xl mt-10 mb-3'/>
       <ParagraphSection text='Next, navigate to the root folder of your React project by running the following command:' className='my-5'/>
 
-      <Image src='/rt2.png' className='mb-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install'/>
+      <Image src='/rt2.png' className='mb-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install' layout='responsive'/>
 
       <ParagraphSection text="Then, install Vite as a development dependency by running the following command:" className='mb-5'/>
 
-      <Image src='/rv1.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install'/>
+      <Image src='/rv1.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install' layout='responsive'/>
 
       {/* 4 */}
       <TitleSection text='Step-4: Configure Vite for React' className='text-xl mt-10 mb-3'/>
       
       <ParagraphSection text="Create a vite.config.js file in the root of your project folder. Open the file and add the following configuration for React:" className='mb-5'/>
 
-      <Image src='/rv2.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install'/>
+      <Image src='/rv2.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install' layout='responsive'/>
       
       {/* 5 */}
       <TitleSection text='Step 5: Install TailwindCSS' className='text-xl mt-10 mb-3'/>
       
       <ParagraphSection text="Next, install TailwindCSS as a dependency by running the following command:" className='mb-5'/>
 
-      <Image src='/rv3.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install'/>
+      <Image src='/rv3.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} layout='responsive' alt='cra-install'/>
       
       {/* 6 */}
       <TitleSection text='Step 6: Create a TailwindCSS Configuration File' className='text-xl mt-10 mb-3'/>
       
       <ParagraphSection text="Create a tailwind.config.js file in the root of your project folder by running:" className='mb-5'/>
 
-      <Image src='/rv4.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install'/>
+      <Image src='/rv4.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} layout='responsive' alt='cra-install'/>
 
       <ParagraphSection text="This will generate a default TailwindCSS configuration file." className='mb-5'/>
       
@@ -84,21 +84,21 @@ const SetupNpm = () => {
       
       <ParagraphSection text="Open your project's main CSS file (usually src/index.css) and import TailwindCSS styles by adding the following line:" className='mb-5'/>
 
-      <Image src='/rv5.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install'/>
+      <Image src='/rv5.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} layout='responsive' alt='cra-install'/>
 
       {/* 8 */}
       <TitleSection text="Step 8: Add TailwindCSS Classes to Your Components" className='text-xl mt-10 mb-3'/>
       
       <ParagraphSection text="You can now start using TailwindCSS classes in your React components to style your web pages. For example:" className='pb-5'/>
 
-      <Image src='/rv6.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install'/>
+      <Image src='/rv6.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} layout='responsive' alt='cra-install'/>
 
       {/* 9 */}
       <TitleSection text="Step 9: Start the Development Server" className='text-xl mt-10 mb-3'/>
       
       <ParagraphSection text="Finally, run the following command to start the Vite development server and see your React + TailwindCSS project in action:" className='pb-5'/>
 
-      <Image src='/rv7.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} alt='cra-install'/>
+      <Image src='/rv7.png' className='my-5 rounded-md border border-slate-800'  width={100} height={100} layout='responsive' alt='cra-install'/>
 
       <ParagraphSection text="And that's it, bro! You're all set up with React, Vite, and TailwindCSS. Now you can create stunning web apps with super fast development workflow and stylish UIs. Happy coding, man! 🚀🎨💻" className='pb-5'/>
 
