@@ -6,7 +6,7 @@ import TitleSection from './TitleSection';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-//https://fkhadra.github.io/react-toastify/introduction/
+//https://fkhadra.github.io/react-toastify/introduction/w47rev
 
 export const ContactUs = () => {
   const form = useRef(null);
@@ -15,7 +15,7 @@ export const ContactUs = () => {
     e.preventDefault();
     form.current.value = null // reset field after send
 
-    emailjs.sendForm('service_ckud40u', 'template_2t0l3qf', form.current, '1Lm-aHT2SrLonvw47')
+    emailjs.sendForm('service_ckud40u', 'template_2t0l3qf', form.current, '1Lm-aHT2SrLonv')
       .then((result) => {
           console.log(result.text);
           toast.success('Your Message sent!', {
