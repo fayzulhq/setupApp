@@ -9,7 +9,8 @@ export const metadata = {
 const Layout = ({children}) => {
   return (
     <>
-        <div className="max-w-3xl mx-auto mt-32">{children}</div>
+      <Header tag='Back' link='/documentations'/>
+      <div className="max-w-3xl mx-auto mt-32">{children}</div>
     </>
   )
 }

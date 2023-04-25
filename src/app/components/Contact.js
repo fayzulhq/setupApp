@@ -48,7 +48,7 @@ export const ContactUs = () => {
         <TitleSection text='Suggestion and Critics' className='my-5'/>
     <form ref={form} onSubmit={sendEmail}>
 
-    <div className='lg:flex flex-col justify-center items-center text-left'>
+    <div className='lg:flex flex-col justify-center px-5 items-center text-left'>
         
       <input type="email" name="user_email" className=" text-sm rounded-lg max-w-[400px] mx-auto my-5 w-full p-2 block bg-gray-700  placeholder-gray-400 focus:outline-none text-white " placeholder="someone@gmail.com" required />
 

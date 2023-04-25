@@ -8,8 +8,8 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
   <>
-    <Header link="/" tag="Back"/>
-    <div className="max-w-3xl mx-auto my-24">{children}
+    <div className="max-w-3xl mx-auto my-7">
+      {children}
     </div>
     <ContactUs/>
   </>
