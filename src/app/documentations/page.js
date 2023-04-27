@@ -1,5 +1,5 @@
 import './../globals.css'
-import CardContainer from './CardContainer'
+import CardContainer from './CardContainer.documentations'
 import Header from '../components/header'
 
 import React from 'react'
